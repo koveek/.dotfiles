@@ -3,7 +3,19 @@ let mapleader = "\<Space>"
 let g:mapleader = "\<Space>"
 noremap <Space> <Nop>
 
-set clipboard=unnamed
+" re-map vertical splitting
+noremap <leader>s <C-w>v
+
+" re-map vertical jumping to the window to the left
+noremap <leader>h <C-w>h 
+
+" re-map vertical junping to the window to the right
+noremap <leader>l <C-w>l 
+
+" re-map window quitting
+noremap <leader>qw <C-w>q 
+
+set clipboard=unnamedplus
 
 nnoremap d "_d
 vnoremap d "_d
