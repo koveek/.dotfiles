@@ -7,10 +7,10 @@ noremap <Space> <Nop>
 noremap <leader>s <C-w>v
 
 " re-map vertical jumping to the window to the left
-noremap <leader>h <C-w>h 
+noremap <C-h> <C-w>h
 
 " re-map vertical junping to the window to the right
-noremap <leader>l <C-w>l 
+noremap <C-l> <C-w>l
 
 " re-map window quitting
 noremap <leader>qw <C-w>q 
