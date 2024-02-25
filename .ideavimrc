@@ -26,6 +26,10 @@ Plug 'tpope/vim-commentary'
 
 
 " -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
+" -- Commands
+" Kotlin
+command! KFile action Kotlin.NewFile
+
 " -- Basic navigation
 map <A-l> <Action>(NextTab)
 map <A-h> <Action>(PreviousTab)
