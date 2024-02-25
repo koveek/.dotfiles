@@ -26,7 +26,10 @@ Plug 'tpope/vim-commentary'
 
 
 " -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
-" Basic navigation
+" -- Basic navigation
+map <A-l> <Action>(NextTab)
+map <A-h> <Action>(PreviousTab)
+
 map <leader>f <Action>(SearchEverywhere)
 map <leader>t <Action>(ActivateTerminalToolWindow)
 
@@ -45,5 +48,7 @@ map <leader>rn <Action>(RenameElement)
 map <leader>rs <Action>(ChangeSignature)
 map <leader>rc <Action>(ReformatCode)
 
+" Git
+map <leader>gc <Action>(CheckinProject)
 map <leader>gp <Action>(Vcs.Push)
 
